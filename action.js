@@ -1,8 +1,8 @@
 var point_levels = new Array();
 point_levels["A"]=5;
-point_levels["B"]=3
-point_levels["C"]=1
-point_levels["D"]=0
+point_levels["B"]=3;
+point_levels["C"]=1;
+point_levels["D"]=0;
 
 
 var Taurus = ["Hard worker","Coolest personality or worst temper", "Easily loved by others", "Always act strong"]
@@ -61,8 +61,8 @@ if (counter<10){
 
 function getSign()
 {
-
-    var total = getTotalPoints()
+  console.log("HI");
+    var total = getTotalPoints();
     if (total==24){
 
 
