@@ -61,9 +61,9 @@ if (counter<10){
 
 function getSign()
 {
-  console.log("HI");
+  
     var total = getTotalPoints();
-    if (total==24){
+    if (total ==25 or total==24){
 
 
       document.getElementById('1').innerHTML=Gemini[0];
@@ -78,7 +78,7 @@ function getSign()
 
     }
 
-    else if (total == 26 ){
+    else if (total>=26 && total<=30 ){
 
 
       document.getElementById('1').innerHTML=Cancer[0];
@@ -92,7 +92,7 @@ function getSign()
       document.getElementById('6').innerHTML="Cancers are homebodies that don't crave spotlight or attention and are typically satisfied with the little things in life. Because cancers are more introverted they will enjoy the company of a Sagittarius, as they, too, enjoy more introspective thinking.";
 
     }
-    else if (total == 22){
+    else if (total == 22 or total==23){
 
       document.getElementById('1').innerHTML=Aries[0];
       document.getElementById('2').innerHTML=Aries[1];
@@ -104,7 +104,7 @@ function getSign()
 
     }
 
-    else if (total == 32){
+    else if (total>=32 && total<=35){
 
 
       document.getElementById('1').innerHTML=Virgo[0];
@@ -117,7 +117,7 @@ function getSign()
 
     }
 
-    else if (total == 41){
+    else if (total>=40 && total=<50){
 
 
       document.getElementById('1').innerHTML=Capricorn[0];
@@ -129,7 +129,7 @@ function getSign()
       setTarget(11);
 
     }
-    else if (total==18){
+    else if (total==18 or total==17){
 
       document.getElementById('1').innerHTML=Leo[0];
       document.getElementById('2').innerHTML=Leo[1];
@@ -141,7 +141,7 @@ function getSign()
 
 
     }
-    else if (total==37){
+    else if (total>=37 && total<=39){
 
       document.getElementById('1').innerHTML=Taurus[0];
       document.getElementById('2').innerHTML=Taurus[1];
@@ -196,7 +196,7 @@ function getSign()
 
     }
 
-    else if (total == 13){
+    else if (total>=13 && total<=15){
 
       document.getElementById('1').innerHTML=Pisces[0];
       document.getElementById('2').innerHTML=Pisces[1];
