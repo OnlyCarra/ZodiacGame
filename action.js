@@ -63,7 +63,7 @@ function getSign()
 {
   
     var total = getTotalPoints();
-    if (total ==25 or total==24){
+    if (total ==25 || total==24){
 
 
       document.getElementById('1').innerHTML=Gemini[0];
@@ -92,7 +92,7 @@ function getSign()
       document.getElementById('6').innerHTML="Cancers are homebodies that don't crave spotlight or attention and are typically satisfied with the little things in life. Because cancers are more introverted they will enjoy the company of a Sagittarius, as they, too, enjoy more introspective thinking.";
 
     }
-    else if (total == 22 or total==23){
+    else if (total == 22 || total==23){
 
       document.getElementById('1').innerHTML=Aries[0];
       document.getElementById('2').innerHTML=Aries[1];
@@ -129,7 +129,7 @@ function getSign()
       setTarget(11);
 
     }
-    else if (total==18 or total==17){
+    else if (total==18 || total==17){
 
       document.getElementById('1').innerHTML=Leo[0];
       document.getElementById('2').innerHTML=Leo[1];
