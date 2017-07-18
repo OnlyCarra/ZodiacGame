@@ -117,7 +117,7 @@ function getSign()
 
     }
 
-    else if (total>=40 && total=<50){
+    else if (total>=40 && total<=50){
 
 
       document.getElementById('1').innerHTML=Capricorn[0];
